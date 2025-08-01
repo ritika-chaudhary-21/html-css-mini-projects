@@ -1,0 +1,114 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+  text-align: center;
+  line-height: 1.6;
+}
+
+header {
+  background-color: #0c243c;
+  color: white;
+  padding: 30px 0;
+}
+
+header h1 {
+  font-size: 4.5rem;
+  letter-spacing: 2px;
+  text-align: center;
+  line-height: 1.2;
+  padding-bottom: 30%;
+}
+
+.tagline h2 {
+  font-size: 3rem;
+  margin: 0 20px;
+  color: #0c243c;
+  line-height: 1.2;
+  text-align: right;
+}
+
+.description p {
+  width: fit-content;
+  max-width: 900px;
+  font-size: 1rem;
+  color: #555;
+  font-family: monospace;
+  text-align: right;
+  margin-left: auto;     
+  margin-right: 20px; 
+  margin-top: 5px;
+}
+
+#room-table {
+  margin: 30px auto;
+  width: 80%;
+  border-collapse: collapse;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  background: white;
+}
+
+#room-table th,
+#room-table td {
+  border: 1px solid #ccc;
+  padding: 15px;
+  text-align: center;
+}
+
+.services{
+  padding: 15px;
+  list-style-position: inside;
+  text-align: left; 
+}
+.services li {
+  margin: 5px 0;
+}
+
+#room-table th {
+  background-color: #0c243c;
+  color: white;
+}
+
+.room-type {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.room-type-img {
+  width: 100%;
+  max-width: 350px;
+  height: auto;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.cta-button {
+  display: inline-block;
+  background-color: #0c243c;
+  color: white;
+  padding: 15px 30px;
+  font-size: 1.2rem;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: background 0.3s ease;
+}
+
+.cta-button:hover {
+  background-color: #1e3d5d;
+}
+
+footer {
+  background-color: #0c243c;
+  color: white;
+  padding: 20px;
+  font-size: 0.9rem;
+  margin-top: 40px;
+}
